@@ -1,3 +1,16 @@
+Este es un challenge frontend de parte de la empresa **KOSMOS**
+
+El proyecto esta desarrollado con React, para instalar las dependencias solo es usar 
+```js
+ npm install
+```
+y se inicializa el proyecto con 
+```js
+npm start
+```
+
+Se aclara que el Api se realizo pero solo regreso una imagen que dice de fondo 600x600 con diferentes colores, y al hacer el resize este desaparece, solo el color, el elemento sigue estando presente.
+
 1. Los componentes no deben de salirse del div con id "parent" al arrastrarse
 
 2. Cada componente debe de tener una imagen única, la cual con estilos propios, no debe salir del componente al que se le hace resize y deben de tener un fit diferente "cover", "contain", etc. e
