@@ -11,6 +11,9 @@ npm start
 
 Se aclara que el Api se realizo pero solo regreso una imagen que dice de fondo 600x600 con diferentes colores, y al hacer el resize este desaparece, solo el color, el elemento sigue estando presente.
 
+Por otro lado, el elemento se limita al div, pero solo cuando se crea y se hace drag.
+Cuando se hace un resize esta propiedad se pierde, ya que al hacer drag de nuevo ya es posible salir, es necesario reajustar su posicion despues de esto, ya que el limite sigue estando, pero este se recorre segun sea de gran el resize.
+
 1. Los componentes no deben de salirse del div con id "parent" al arrastrarse
 
 2. Cada componente debe de tener una imagen única, la cual con estilos propios, no debe salir del componente al que se le hace resize y deben de tener un fit diferente "cover", "contain", etc. e
